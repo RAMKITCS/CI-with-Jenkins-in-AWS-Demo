@@ -17,9 +17,6 @@
     <buildDirectory>${project.basedir}/target</buildDirectory>
     </properties>
 
-<build>
-    <directory>${buildDirectory}</directory>
-</build>
 
    <dependencies>
         <dependency>
@@ -30,6 +27,7 @@
         </dependency>
     </dependencies>
     <build>
+        <directory>${buildDirectory}</directory>
         <pluginManagement>
             <plugins>
                               <plugin>
