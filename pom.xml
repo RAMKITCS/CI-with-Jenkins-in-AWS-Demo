@@ -64,4 +64,15 @@
             </plugin>
         </plugins>
     </build>
+    
+     <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://35.200.135.154:8081/repository/maven-releases/</url>
+        </repository>
+        <!--<snapshotRepository>
+            <id>maven-hosted</id>
+            <url>http://34.93.144.130:8081/repository/maven-hosted/</url>
+        </snapshotRepository> -->
+    </distributionManagement> 
 </project>
